@@ -1,9 +1,0 @@
-[submodule "miptapp"]
-	path = miptapp
-	url = https://github.com/vapersan/miptapp
-[submodule "mipttelebot"]
-	path = mipttelebot
-	url = https://github.com/vapersan/mipttelebot
-[submodule "miptback"]
-	path = miptback
-	url = https://github.com/vapersan/miptback
