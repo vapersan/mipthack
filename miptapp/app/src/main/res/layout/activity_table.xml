@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rl"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/today"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textAlignment="center"
+        android:textSize="20sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/today" />
+
+    <TableLayout
+        android:id="@+id/table"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/today"
+
+        >
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_marginStart="10dp"
+                android:textSize="15sp"
+
+                android:text="1"/>
+            <TextView
+                android:text="Русский язык\n8:45-10:15"
+                android:layout_marginStart="15dp"
+                />
+            <TextView
+                android:layout_marginStart="10dp"
+                android:text="Плахова А.А\n251 каб" />
+        </TableRow>
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_marginStart="10dp"
+                android:textSize="15sp"
+
+                android:text="2"/>
+            <TextView
+                android:text="Английский язык\n8:45-10:15"
+                android:layout_marginStart="15dp"
+                />
+            <TextView
+                android:layout_marginStart="10dp"
+                android:text="Оугрцова О.С.\n152 каб"/>
+        </TableRow>
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_marginStart="10dp"
+                android:textSize="15sp"
+
+                android:text="3"/>
+            <TextView
+                android:text="Какой-то предмет\n8:45-10:15"
+                android:layout_marginStart="15dp"
+                />
+            <TextView
+                android:layout_marginStart="10dp"
+                android:text="ОС\n250 каб" />
+        </TableRow>
+    </TableLayout>
+
+
+
+</RelativeLayout>
